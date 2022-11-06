@@ -1,5 +1,7 @@
 <script>
-    import Title from "$lib/Title.svelte";
+    import { inject } from '@vercel/analytics';
+
+    inject();
 </script>
 
 <div class="index">
